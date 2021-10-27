@@ -12,8 +12,9 @@ public class BankClient {
         account.deposit(100);
         System.out.println(account.getAccountNumber());
         System.out.println(account.getPreferredName());
-        // System.out.println(account.setPreferredName("Daquavis"));
-        account.toString();
+        account.setPreferredName("Daquavious");
+        System.out.println(account.getPreferredName());
+        System.out.println(account.toString());
 
 
     }

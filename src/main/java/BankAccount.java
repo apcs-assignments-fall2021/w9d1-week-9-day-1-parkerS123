@@ -47,8 +47,8 @@ public class BankAccount {
         preferredName = name2;
     }
 
-    public String toString(String b){
-        b = "Your bank account number is " + accountNumber + " and you balance is $" + balance;
+    public String toString(){
+        String b = "Your bank account number is " + accountNumber + " and you balance is $" + balance;
 
         return b;
     }
